@@ -1,0 +1,1 @@
+Maya scripts will be writen in Python.
