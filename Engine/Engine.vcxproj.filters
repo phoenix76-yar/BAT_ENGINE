@@ -267,7 +267,7 @@
     <ClCompile Include="ach.cpp">
       <Filter>Engine\Core\Anticheat</Filter>
     </ClCompile>
-    <ClCompile Include="test.cpp">
+    <ClCompile Include="file1.cpp">
       <Filter>Engine</Filter>
     </ClCompile>
     <ClCompile Include="file2.cpp">
