@@ -174,8 +174,8 @@
     <ClCompile Include="Engine\Graphics\Shape Factory\Shape Primitives\BoxShape.cpp" />
     <ClCompile Include="Engine\Graphics\Shape Factory\Shape Primitives\IPrimitive.cpp" />
     <ClCompile Include="Engine\Window\Win32Window.cpp" />
+    <ClCompile Include="file1.cpp" />
     <ClCompile Include="Launcher.cpp" />
-    <ClCompile Include="test.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Engine\Audio\AudioManager.h" />
