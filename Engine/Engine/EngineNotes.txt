@@ -1,0 +1,18 @@
+Project created on 01.02.2017
+
+Some tips:
+Use short cuts in VS, the most popular ones:
+http://www.pvladov.com/2012/12/the-most-useful-visual-studio-keyboard-shortcuts.html
+
+Everything that goes into core lies in BEngine namespace, everything specific should lie inside it's own namespace for example:
+Everything that is connected to rendering pipeline will lie in:
+namespace BEngine
+{
+	namespace BGraphics
+	{
+		//All rendering related code...
+	}
+}
+
+
+If a thread is doing nothing, instead of doing while(true) {} loop put it asleep !!! (will save CPU cycles).

@@ -1,0 +1,78 @@
+<?xml version="1.0"?>
+<MapData>
+	<Name>Name of the map data file.</Name>
+	<Bounds> <!--These are the final limits of the game world, beyond which nothing will work or spawn.-->
+		<min x="-1000" y="-1000" z="-100"/>
+		<max x="1000" y="1000" z="10000"/>
+	</Bounds>
+	
+	<Sections>
+		<Section>
+			<!--Rename to EntityDefinitions or leave it as a short cut ?-->
+			<EntityDef name="..\Data\part_1_map.xml"/>
+			<!--<MapTypes> in the future add multiple map types, for now one file definiing all assets will do the job.-->
+			<EntityPlacements name="..\Data\part_1_type.xml" />
+			<!--</MapTypes>-->
+			<!--subsection name=""/-->
+		</Section>
+	</Sections>
+</MapData>
+
+
+<!--
+Engine directories
+----------------------
+Engine
+	Core
+		XML
+		Event System
+		Resouce Manager
+		Level Manager
+		Multithreading
+	Render
+		Render Manager
+		IRender
+		Shape Factory
+		Material Factory
+	Physics
+		Physics World
+	Audio
+	AI
+	Network
+	Script (For each level there must be a script that configures the level)
+----------------------
+Game (a lot of interfaces)
+	Behaviour
+----------------------
+SDK
+	Maxscripts
+	Build tools
+----------------------			
+Data
+	Animations
+	DirectoryX
+		Characters
+		Vehicles
+		Guns
+	World 
+		All config files go here (including map def and map & type)
+		--Here you can define folders that will be archived (build)
+		Textures_Part1
+		Drawables_Part1
+		Collisions_Part1
+		etc.
+	Scripts
+	Shaders
+	Sound
+	Fonts
+----------------------	
+Documents
+----------------------	
+When the game will be build all resources 
+will be packed in their corresponding archives (by folder names)
+
+This will be done by special SDK tool, this SDK tool also must output a log file,
+so later it could be possible to determine what changes have been made.
+-->
+
+

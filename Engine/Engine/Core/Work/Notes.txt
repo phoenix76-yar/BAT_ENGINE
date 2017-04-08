@@ -1,0 +1,42 @@
+Few ideas for the problem of for one drawable multiple positions:
+If drawable isn't supposed to be instanced, then one option would be to:
+Create a separate copy of the original drawable but make pointers point to the original
+data, such as vertex data, index data, material, etc.
+
+
+
+For RSC's idea
+We create one shape dictionary and for it one texture dictionary
+
+
+FMOD is already linked to the project, you just need to put dll's in the right places !!!
+
+See unordered_set
+
+Conditional var: https://www.youtube.com/watch?v=hc0lOBhsvdY&list=PLqs2IDfjfprFh1XQKZ5d4WEClV-_N9EBb&index=4
+
+conditional var could be used to notify renderer when physics has finished ?
+
+Look for serial port: https://www.youtube.com/watch?v=yJVk7LTvo3I
+
+Swapping without 3rd variable: https://www.youtube.com/watch?v=IAByqY4ckco&index=5&list=PLqs2IDfjfprGsEzCqRAHdaqXb_xlTrdPM
+
+http://wallpaper-gallery.net/wallpapers/visual-studio-wallpaper.html
+http://visualstudiowallpapers.com/page/11
+
+
+Place where to buy pbr materials:
+https://www.gametextures.com/
+
+https://www.gametextures.com/product/layered-metamorphic-rock/
+https://www.gametextures.com/product/sandy-dirt-road/
+https://www.gametextures.com/product/blackberry-bush/
+https://www.gametextures.com/product/ground-gnarly-grass43298089234234r3/
+
+
+When we will be creating documentation on html this is very useful feature to have:
+https://highlightjs.org/
+https://highlightjs.org/download/
+for code highlighting !!!
+
+GRC stands for graphics core !!!

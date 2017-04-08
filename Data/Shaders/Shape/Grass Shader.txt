@@ -1,0 +1,25 @@
+For grass instance we could use:
+http://www.gamasutra.com/view/feature/4028/sponsored_feature_rendering_grass_.php?print=1
+
+Basically grass placements are saved in special file
+grass placement has local position to the shape it is placed on
+and the positions are saved in the following format:
+x, y, rotation around z axis, scale factor - layed out in 4 bytes
+the only thing it would be necessary to think how to place grass on z axis
+other way:
+
+struct GrassInstancePlacement
+{
+	/ ****** NOTE: Those positions are local to the main mesh
+	hfloat x;
+	hfloat y;
+	hfloat z;
+	byte rz;
+	byte scaleFactor;
+};
+
+
+Grass shapes could be then instanced.
+
+Local to the main mesh means that it will be neccessary to apply initial shapes transform to all transforms
+that will be constructed from those positions.

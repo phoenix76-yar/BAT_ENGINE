@@ -1,0 +1,487 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Engine">
+      <UniqueIdentifier>{6a25f16f-42d2-4f07-b82f-7a43002e8fce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Core">
+      <UniqueIdentifier>{56daafaf-c995-48cf-be42-ee97956fe294}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Physics">
+      <UniqueIdentifier>{bfc0c61a-5da9-4dab-9a15-7064f49c5f70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Audio">
+      <UniqueIdentifier>{9e653275-8d02-41df-a0dd-a52ce0714a32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Network">
+      <UniqueIdentifier>{2505d3b1-72c4-4dc7-baa2-bdf89b192cd3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Scripts">
+      <UniqueIdentifier>{ae4fa03c-a13d-4a8d-a704-325ab8f1842d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{bb38fcab-f4ff-4f2c-bdb3-3eb35420138d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Window">
+      <UniqueIdentifier>{764cfbd9-0582-4bb5-871f-f2469c3ab3e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Core\Event System">
+      <UniqueIdentifier>{46808f10-c534-429c-88d5-3550579e84bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Core\Level Manager">
+      <UniqueIdentifier>{1d8caa06-2c24-455c-8540-1f0ca7325bce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Core\Resource Manager">
+      <UniqueIdentifier>{f1f7d4cd-5cfb-4947-bd2a-4aab4b43bc2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Core\XML">
+      <UniqueIdentifier>{2172ae51-1d20-4f14-8534-266790123199}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Core\Memory Allocator">
+      <UniqueIdentifier>{1b3156bb-ffca-4c45-ae70-de4b122cf596}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Core\Templates">
+      <UniqueIdentifier>{6cf7328c-4f9d-4c33-96e9-8b2404310775}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Core\Half Float">
+      <UniqueIdentifier>{32a6e219-94d8-4429-a701-680fe89ffdd2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Core\Containers">
+      <UniqueIdentifier>{4ec7f1c5-2805-4c92-ab8b-e288aa63c0cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Animations">
+      <UniqueIdentifier>{b35e7f76-7380-467a-a1d4-8e6b77adca1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Core\Multi Threading">
+      <UniqueIdentifier>{174c5b88-e5f4-4e62-aa70-58232e318553}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Core\Anticheat">
+      <UniqueIdentifier>{0d204d2a-2b68-47fa-a17a-33771a1fe4dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Core\Resource Manager\Encryption">
+      <UniqueIdentifier>{a186ac20-c500-4dc3-84ec-f7a6e9cf2b99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Core\Resource Manager\Compression">
+      <UniqueIdentifier>{446cf595-a392-4bcc-8831-058e6ce0214b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Core\Resource Manager\Archives">
+      <UniqueIdentifier>{51f3036a-324d-4735-ae92-f7172264d018}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Core\Config">
+      <UniqueIdentifier>{d31df054-06e5-47ea-91f0-3ebac7f015e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Core\Logger">
+      <UniqueIdentifier>{c88c42ad-b715-466c-b913-57cc7007fe65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Core\Work">
+      <UniqueIdentifier>{bb0f8e73-e9cc-417d-9edb-670dc5334740}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Core\File Device">
+      <UniqueIdentifier>{7fb15c7d-89e2-412c-96f7-6343aa1b083f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Physics\Collision">
+      <UniqueIdentifier>{030d3a21-08f3-4c40-b661-f32437be2270}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Physics\Physics World">
+      <UniqueIdentifier>{9fe6d424-47b7-4dec-b93f-608bdbe4e8de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Graphics">
+      <UniqueIdentifier>{dd24af18-e817-49b7-aa1f-c4a19caba8b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Graphics\Shape Factory">
+      <UniqueIdentifier>{79e7fd0b-6b00-483f-b995-f16eff38b533}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Graphics\Shape Factory\Shape Primitives">
+      <UniqueIdentifier>{6c8204a4-2d2f-4f66-bfc3-1dc8f482ffb3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Graphics\Shape Factory\Complex Shapes">
+      <UniqueIdentifier>{b9132ee1-0748-4139-a970-3c1489ae2bb2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Graphics\Timecycle">
+      <UniqueIdentifier>{d80347ab-89ee-4300-bb18-0cfc58f6d84f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Graphics\GUI">
+      <UniqueIdentifier>{c51735b3-9f97-48f5-b83c-9b40235f1974}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Graphics\Camera">
+      <UniqueIdentifier>{b5c805d2-d803-4b98-a693-b545e34cc82b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Graphics\Buffer Objects">
+      <UniqueIdentifier>{04e2f351-c29f-44f6-9932-272c00189f22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Graphics\Shader Factory">
+      <UniqueIdentifier>{e13fd389-e047-4810-ab14-f4ca4dc51254}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Graphics\Material Factory">
+      <UniqueIdentifier>{18993d6b-8309-44aa-bc1b-37c20ce4f774}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Graphics\GLXRender">
+      <UniqueIdentifier>{3011a7b8-ec4a-4036-9d94-9650964e7016}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Launcher.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Graphics\IRender.cpp">
+      <Filter>Engine\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Core\PugiXML\pugixml.cpp">
+      <Filter>Engine\Core\XML</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Window\Win32Window.cpp">
+      <Filter>Engine\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\MasterSystem.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Core\Event System\EventManager.cpp">
+      <Filter>Engine\Core\Event System</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Core\Event System\IEventListener.cpp">
+      <Filter>Engine\Core\Event System</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Core\Event System\MSGChannel.cpp">
+      <Filter>Engine\Core\Event System</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\EngineContainers.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Core\Resource Manager\RSCManager.cpp">
+      <Filter>Engine\Core\Resource Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Graphics\RenderManager.cpp">
+      <Filter>Engine\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Graphics\Camera\Camera.cpp">
+      <Filter>Engine\Graphics\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Graphics\Buffer Objects\GLXBufferObjects.cpp">
+      <Filter>Engine\Graphics\Buffer Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Graphics\Shape Factory\IShape.cpp">
+      <Filter>Engine\Graphics\Shape Factory</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Graphics\Shape Factory\Shape Primitives\BoxShape.cpp">
+      <Filter>Engine\Graphics\Shape Factory\Shape Primitives</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Graphics\Shape Factory\Shape Primitives\IPrimitive.cpp">
+      <Filter>Engine\Graphics\Shape Factory\Shape Primitives</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Graphics\Shader Factory\GLXShader.cpp">
+      <Filter>Engine\Graphics\Shader Factory</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Graphics\Shader Factory\ShaderManager.cpp">
+      <Filter>Engine\Graphics\Shader Factory</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Graphics\Material Factory\Material.cpp">
+      <Filter>Engine\Graphics\Material Factory</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Graphics\RenderManagerMSGProcessor.cpp">
+      <Filter>Engine\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Graphics\Shape Factory\Complex Shapes\TriangleShape.cpp">
+      <Filter>Engine\Graphics\Shape Factory\Complex Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Audio\AudioManager.cpp">
+      <Filter>Engine\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Audio\AudioManagerMSGProcessor.cpp">
+      <Filter>Engine\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Audio\Sound.cpp">
+      <Filter>Engine\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\IManager.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Core\Resource Manager\RSCManagerMSGProcessor.cpp">
+      <Filter>Engine\Core\Resource Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Graphics\Shape Factory\LODGroup.cpp">
+      <Filter>Engine\Graphics\Shape Factory</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Core\Memory Allocator\MemoryAllocator.cpp">
+      <Filter>Engine\Core\Memory Allocator</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Core\Config\EngineConfig.cpp">
+      <Filter>Engine\Core\Config</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Core\Level Manager\StreamingSection.cpp">
+      <Filter>Engine\Core\Level Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Core\Level Manager\Level.cpp">
+      <Filter>Engine\Core\Level Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\MasterSystemMSGProcessor.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Core\Level Manager\Section.cpp">
+      <Filter>Engine\Core\Level Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Core\Level Manager\SimpleLevel.cpp">
+      <Filter>Engine\Core\Level Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Core\Work\Worker.cpp">
+      <Filter>Engine\Core\Work</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Core\Work\RSCLoadTask.cpp">
+      <Filter>Engine\Core\Work</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Core\File Device\FileDevice.cpp">
+      <Filter>Engine\Core\File Device</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Physics\BCollision.cpp">
+      <Filter>Engine\Physics\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Physics\BMotionState.cpp">
+      <Filter>Engine\Physics\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Physics\BRigidBody.cpp">
+      <Filter>Engine\Physics\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Physics\PhysicsManager.cpp">
+      <Filter>Engine\Physics\Physics World</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Physics\PhysicsManagerMSGProcessor.cpp">
+      <Filter>Engine\Physics\Physics World</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Physics\PhysicsWorld.cpp">
+      <Filter>Engine\Physics\Physics World</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Graphics\GLXRender.cpp">
+      <Filter>Engine\Graphics\GLXRender</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Engine\EngineDefinitions.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Graphics\IRender.h">
+      <Filter>Engine\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Core\PugiXML\pugiconfig.hpp">
+      <Filter>Engine\Core\XML</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Core\PugiXML\pugixml.hpp">
+      <Filter>Engine\Core\XML</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Window\IWindow.h">
+      <Filter>Engine\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Window\Win32Window.h">
+      <Filter>Engine\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Core\Templates\Noncopyable.h">
+      <Filter>Engine\Core\Templates</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Core\Templates\Singleton.h">
+      <Filter>Engine\Core\Templates</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Core\Half float\half.hpp">
+      <Filter>Engine\Core\Half Float</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\MasterSystem.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Core\Event System\EventManager.h">
+      <Filter>Engine\Core\Event System</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Core\Event System\EventMSG.h">
+      <Filter>Engine\Core\Event System</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Core\Event System\IEventListener.h">
+      <Filter>Engine\Core\Event System</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Core\Event System\MSGChannel.h">
+      <Filter>Engine\Core\Event System</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\IGame.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Graphics\GraphicsDefinitions.h">
+      <Filter>Engine\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Core\Multi Threading\Spinlock.h">
+      <Filter>Engine\Core\Multi Threading</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\EngineContainers.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Window\WindowDefinitions.h">
+      <Filter>Engine\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Core\Resource Manager\RSCManager.h">
+      <Filter>Engine\Core\Resource Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Physics\PhysicsDefinitions.h">
+      <Filter>Engine\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\EngineTypes.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Graphics\RenderManager.h">
+      <Filter>Engine\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\IManager.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Window\WindowMSG.h">
+      <Filter>Engine\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Graphics\GUI\IGUI.h">
+      <Filter>Engine\Graphics\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Graphics\Camera\Camera.h">
+      <Filter>Engine\Graphics\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Graphics\Buffer Objects\GLXBufferObjects.h">
+      <Filter>Engine\Graphics\Buffer Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Graphics\BGVertexFormats.h">
+      <Filter>Engine\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Graphics\Shape Factory\IShape.h">
+      <Filter>Engine\Graphics\Shape Factory</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Graphics\Shape Factory\Shape Primitives\BoxShape.h">
+      <Filter>Engine\Graphics\Shape Factory\Shape Primitives</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Graphics\Shape Factory\Shape Primitives\IPrimitive.h">
+      <Filter>Engine\Graphics\Shape Factory\Shape Primitives</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\SystemMSGs.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Graphics\Shader Factory\IShader.h">
+      <Filter>Engine\Graphics\Shader Factory</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Graphics\Shader Factory\GLXShader.h">
+      <Filter>Engine\Graphics\Shader Factory</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Graphics\Shader Factory\ShaderManager.h">
+      <Filter>Engine\Graphics\Shader Factory</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Graphics\Material Factory\Material.h">
+      <Filter>Engine\Graphics\Material Factory</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Graphics\GraphicsMSGs.h">
+      <Filter>Engine\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Graphics\Shape Factory\Complex Shapes\TriangleShape.h">
+      <Filter>Engine\Graphics\Shape Factory\Complex Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Graphics\Shape Factory\Complex Shapes\TriangleShapeDefinitions.h">
+      <Filter>Engine\Graphics\Shape Factory\Complex Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Audio\AudioMSGs.h">
+      <Filter>Engine\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Audio\AudioManager.h">
+      <Filter>Engine\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Audio\Sound.h">
+      <Filter>Engine\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\IGameObject.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Core\Resource Manager\RSCMSGs.h">
+      <Filter>Engine\Core\Resource Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Graphics\Shape Factory\LODGroup.h">
+      <Filter>Engine\Graphics\Shape Factory</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Core\Resource Manager\RSCefinitions.h">
+      <Filter>Engine\Core\Resource Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Core\Memory Allocator\MemoryAllocator.h">
+      <Filter>Engine\Core\Memory Allocator</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Core\Config\EngineConfig.h">
+      <Filter>Engine\Core\Config</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Core\Level Manager\Level.h">
+      <Filter>Engine\Core\Level Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Core\Level Manager\Section.h">
+      <Filter>Engine\Core\Level Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Core\Level Manager\StreamingSection.h">
+      <Filter>Engine\Core\Level Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Core\Level Manager\SectionDefinitions.h">
+      <Filter>Engine\Core\Level Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Core\Level Manager\SimpleLevel.h">
+      <Filter>Engine\Core\Level Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Core\Work\Worker.h">
+      <Filter>Engine\Core\Work</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Core\Work\Task.h">
+      <Filter>Engine\Core\Work</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Core\Work\RSCLoadTask.h">
+      <Filter>Engine\Core\Work</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Core\File Device\FileDevice.h">
+      <Filter>Engine\Core\File Device</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Physics\BCollision.h">
+      <Filter>Engine\Physics\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Physics\BMotionState.h">
+      <Filter>Engine\Physics\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Physics\BRigidBody.h">
+      <Filter>Engine\Physics\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Physics\PhysicsManager.h">
+      <Filter>Engine\Physics\Physics World</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Physics\PhysicsMSGs.h">
+      <Filter>Engine\Physics\Physics World</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Physics\PhysicsWorld.h">
+      <Filter>Engine\Physics\Physics World</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Graphics\GLXRender.h">
+      <Filter>Engine\Graphics\GLXRender</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\EngineSpecialTypes.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Core\Multi Threading\LazySpinLock.h">
+      <Filter>Engine\Core\Multi Threading</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Engine\EngineNotes.txt">
+      <Filter>Engine</Filter>
+    </Text>
+    <Text Include="Engine\Core\Work\Notes.txt">
+      <Filter>Source Files</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Engine.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

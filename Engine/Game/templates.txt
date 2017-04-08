@@ -1,0 +1,17 @@
+In this folder will go all classes related to the Game
+
+starting with:
+
+class IGame
+{
+public:
+	IGame() = default;
+	~IGame() = default;
+
+	virtual void initialise() = 0;
+	virtual void shutDown() = 0;
+	virtual void update() = 0;
+protected:
+	//Some stuff
+
+};

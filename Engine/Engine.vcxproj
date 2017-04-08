@@ -1,0 +1,258 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{DC8E30AD-9416-4984-B7D1-A03BED18D106}</ProjectGuid>
+    <RootNamespace>Engine</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>..\3rd Party\FMOD\include;..\3rd Party\BulletPhysics\include;..\3rd Party\Glew\include\GL;..\3rd Party\GLM\include\glm;..\3rd Party\EASTL\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories>..\3rd Party\FMOD\lib32;..\3rd Party\BulletPhysics\lib32;..\3rd Party\EASTL\lib32;..\3rd Party\Glew\lib32;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>fmod_vc.lib;BulletCollision_vs2010_debug.lib;BulletDynamics_vs2010_debug.lib;BulletSoftBody_vs2010_debug.lib;ConvexDecomposition_vs2010_debug.lib;LinearMath_vs2010_debug.lib;glew32sd.lib;OpenGL32.Lib;EASTLd.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>..\3rd Party\FMOD\include;..\3rd Party\BulletPhysics\include;..\3rd Party\Glew\include\GL;..\3rd Party\GLM\include\glm;..\3rd Party\EASTL\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>ENGINE_VERSION_X64;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories>C:\Users\akaln\Documents\Visual Studio 2015\Projects\Engine\3rd Party\FMOD\lib64;..\3rd Party\BulletPhysics\lib64;..\3rd Party\Glew\lib64;..\3rd Party\EASTL\lib64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>fmod64_vc.lib;BulletCollision_vs2010_x64_debug.lib;BulletDynamics_vs2010_x64_debug.lib;BulletSoftBody_vs2010_x64_debug.lib;ConvexDecomposition_x64_vs2010_debug.lib;LinearMath_vs2010_debug.lib;glew32sd.lib;OpenGL32.Lib;EASTLd.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <AdditionalIncludeDirectories>..\3rd Party\FMOD\include;..\3rd Party\BulletPhysics\include;..\3rd Party\Glew\include\GL;..\3rd Party\GLM\include\glm;..\3rd Party\EASTL\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>..\3rd Party\FMOD\lib32;..\3rd Party\BulletPhysics\lib32;..\3rd Party\EASTL\lib32;..\3rd Party\Glew\lib32;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>fmod_vc.lib;BulletCollision_vs2010.lib;BulletDynamics_vs2010.lib;BulletSoftBody_vs2010.lib;ConvexDecomposition_vs2010.lib;LinearMath_vs2010.lib;glew32s.lib;OpenGL32.Lib;EASTL.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>..\3rd Party\FMOD\include;..\3rd Party\BulletPhysics\include;..\3rd Party\Glew\include\GL;..\3rd Party\GLM\include\glm;..\3rd Party\EASTL\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <PreprocessorDefinitions>ENGINE_VERSION_X64;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>C:\Users\akaln\Documents\Visual Studio 2015\Projects\Engine\3rd Party\FMOD\lib64;..\3rd Party\BulletPhysics\lib64;..\3rd Party\Glew\lib64;..\3rd Party\EASTL\lib64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>fmod64_vc.lib;BulletCollision_vs2010_x64_release.lib;BulletDynamics_vs2010_x64_release.lib;BulletSoftBody_vs2010_x64_release.lib;ConvexDecomposition_vs2010_x64_release.lib;LinearMath_vs2010_x64_release.lib;glew32s.lib;OpenGL32.Lib;EASTL.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Engine\Audio\AudioManager.cpp" />
+    <ClCompile Include="Engine\Audio\AudioManagerMSGProcessor.cpp" />
+    <ClCompile Include="Engine\Audio\Sound.cpp" />
+    <ClCompile Include="Engine\Core\Config\EngineConfig.cpp" />
+    <ClCompile Include="Engine\Core\Event System\EventManager.cpp" />
+    <ClCompile Include="Engine\Core\Event System\IEventListener.cpp" />
+    <ClCompile Include="Engine\Core\Event System\MSGChannel.cpp" />
+    <ClCompile Include="Engine\Core\File Device\FileDevice.cpp" />
+    <ClCompile Include="Engine\Core\Level Manager\Level.cpp" />
+    <ClCompile Include="Engine\Core\Level Manager\Section.cpp" />
+    <ClCompile Include="Engine\Core\Level Manager\SimpleLevel.cpp" />
+    <ClCompile Include="Engine\Core\Level Manager\StreamingSection.cpp" />
+    <ClCompile Include="Engine\Core\Memory Allocator\MemoryAllocator.cpp" />
+    <ClCompile Include="Engine\Core\PugiXML\pugixml.cpp" />
+    <ClCompile Include="Engine\Core\Resource Manager\RSCManager.cpp" />
+    <ClCompile Include="Engine\Core\Resource Manager\RSCManagerMSGProcessor.cpp" />
+    <ClCompile Include="Engine\Core\Work\RSCLoadTask.cpp" />
+    <ClCompile Include="Engine\Core\Work\Worker.cpp" />
+    <ClCompile Include="Engine\EngineContainers.cpp" />
+    <ClCompile Include="Engine\IManager.cpp" />
+    <ClCompile Include="Engine\MasterSystem.cpp" />
+    <ClCompile Include="Engine\MasterSystemMSGProcessor.cpp" />
+    <ClCompile Include="Engine\Physics\BCollision.cpp" />
+    <ClCompile Include="Engine\Physics\BMotionState.cpp" />
+    <ClCompile Include="Engine\Physics\BRigidBody.cpp" />
+    <ClCompile Include="Engine\Physics\PhysicsManager.cpp" />
+    <ClCompile Include="Engine\Physics\PhysicsManagerMSGProcessor.cpp" />
+    <ClCompile Include="Engine\Physics\PhysicsWorld.cpp" />
+    <ClCompile Include="Engine\Graphics\Buffer Objects\GLXBufferObjects.cpp" />
+    <ClCompile Include="Engine\Graphics\Camera\Camera.cpp" />
+    <ClCompile Include="Engine\Graphics\GLXRender.cpp" />
+    <ClCompile Include="Engine\Graphics\IRender.cpp" />
+    <ClCompile Include="Engine\Graphics\Material Factory\Material.cpp" />
+    <ClCompile Include="Engine\Graphics\RenderManager.cpp" />
+    <ClCompile Include="Engine\Graphics\RenderManagerMSGProcessor.cpp" />
+    <ClCompile Include="Engine\Graphics\Shader Factory\GLXShader.cpp" />
+    <ClCompile Include="Engine\Graphics\Shader Factory\ShaderManager.cpp" />
+    <ClCompile Include="Engine\Graphics\Shape Factory\Complex Shapes\TriangleShape.cpp" />
+    <ClCompile Include="Engine\Graphics\Shape Factory\IShape.cpp" />
+    <ClCompile Include="Engine\Graphics\Shape Factory\LODGroup.cpp" />
+    <ClCompile Include="Engine\Graphics\Shape Factory\Shape Primitives\BoxShape.cpp" />
+    <ClCompile Include="Engine\Graphics\Shape Factory\Shape Primitives\IPrimitive.cpp" />
+    <ClCompile Include="Engine\Window\Win32Window.cpp" />
+    <ClCompile Include="Launcher.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Engine\Audio\AudioManager.h" />
+    <ClInclude Include="Engine\Audio\AudioMSGs.h" />
+    <ClInclude Include="Engine\Audio\Sound.h" />
+    <ClInclude Include="Engine\Core\Config\EngineConfig.h" />
+    <ClInclude Include="Engine\Core\Event System\EventManager.h" />
+    <ClInclude Include="Engine\Core\Event System\EventMSG.h" />
+    <ClInclude Include="Engine\Core\Event System\IEventListener.h" />
+    <ClInclude Include="Engine\Core\Event System\MSGChannel.h" />
+    <ClInclude Include="Engine\Core\File Device\FileDevice.h" />
+    <ClInclude Include="Engine\Core\Half float\half.hpp" />
+    <ClInclude Include="Engine\Core\Level Manager\Level.h" />
+    <ClInclude Include="Engine\Core\Level Manager\Section.h" />
+    <ClInclude Include="Engine\Core\Level Manager\SectionDefinitions.h" />
+    <ClInclude Include="Engine\Core\Level Manager\SimpleLevel.h" />
+    <ClInclude Include="Engine\Core\Level Manager\StreamingSection.h" />
+    <ClInclude Include="Engine\Core\Memory Allocator\MemoryAllocator.h" />
+    <ClInclude Include="Engine\Core\Multi Threading\LazySpinLock.h" />
+    <ClInclude Include="Engine\Core\Multi Threading\Spinlock.h" />
+    <ClInclude Include="Engine\Core\PugiXML\pugiconfig.hpp" />
+    <ClInclude Include="Engine\Core\PugiXML\pugixml.hpp" />
+    <ClInclude Include="Engine\Core\Resource Manager\RSCefinitions.h" />
+    <ClInclude Include="Engine\Core\Resource Manager\RSCManager.h" />
+    <ClInclude Include="Engine\Core\Resource Manager\RSCMSGs.h" />
+    <ClInclude Include="Engine\Core\Templates\Noncopyable.h" />
+    <ClInclude Include="Engine\Core\Templates\Singleton.h" />
+    <ClInclude Include="Engine\Core\Work\RSCLoadTask.h" />
+    <ClInclude Include="Engine\Core\Work\Task.h" />
+    <ClInclude Include="Engine\Core\Work\Worker.h" />
+    <ClInclude Include="Engine\EngineContainers.h" />
+    <ClInclude Include="Engine\EngineDefinitions.h" />
+    <ClInclude Include="Engine\EngineSpecialTypes.h" />
+    <ClInclude Include="Engine\EngineTypes.h" />
+    <ClInclude Include="Engine\IManager.h" />
+    <ClInclude Include="Engine\MasterSystem.h" />
+    <ClInclude Include="Engine\Physics\BCollision.h" />
+    <ClInclude Include="Engine\Physics\BMotionState.h" />
+    <ClInclude Include="Engine\Physics\BRigidBody.h" />
+    <ClInclude Include="Engine\Physics\PhysicsDefinitions.h" />
+    <ClInclude Include="Engine\Physics\PhysicsManager.h" />
+    <ClInclude Include="Engine\Physics\PhysicsMSGs.h" />
+    <ClInclude Include="Engine\Physics\PhysicsWorld.h" />
+    <ClInclude Include="Engine\Graphics\BGVertexFormats.h" />
+    <ClInclude Include="Engine\Graphics\Buffer Objects\GLXBufferObjects.h" />
+    <ClInclude Include="Engine\Graphics\Camera\Camera.h" />
+    <ClInclude Include="Engine\Graphics\GLXRender.h" />
+    <ClInclude Include="Engine\Graphics\GraphicsDefinitions.h" />
+    <ClInclude Include="Engine\Graphics\GraphicsMSGs.h" />
+    <ClInclude Include="Engine\Graphics\GUI\IGUI.h" />
+    <ClInclude Include="Engine\Graphics\IRender.h" />
+    <ClInclude Include="Engine\Graphics\Material Factory\Material.h" />
+    <ClInclude Include="Engine\Graphics\RenderManager.h" />
+    <ClInclude Include="Engine\Graphics\Shader Factory\GLXShader.h" />
+    <ClInclude Include="Engine\Graphics\Shader Factory\IShader.h" />
+    <ClInclude Include="Engine\Graphics\Shader Factory\ShaderManager.h" />
+    <ClInclude Include="Engine\Graphics\Shape Factory\Complex Shapes\TriangleShape.h" />
+    <ClInclude Include="Engine\Graphics\Shape Factory\Complex Shapes\TriangleShapeDefinitions.h" />
+    <ClInclude Include="Engine\Graphics\Shape Factory\IShape.h" />
+    <ClInclude Include="Engine\Graphics\Shape Factory\LODGroup.h" />
+    <ClInclude Include="Engine\Graphics\Shape Factory\Shape Primitives\BoxShape.h" />
+    <ClInclude Include="Engine\Graphics\Shape Factory\Shape Primitives\IPrimitive.h" />
+    <ClInclude Include="Engine\SystemMSGs.h" />
+    <ClInclude Include="Engine\Window\IWindow.h" />
+    <ClInclude Include="Engine\Window\Win32Window.h" />
+    <ClInclude Include="Engine\Window\WindowDefinitions.h" />
+    <ClInclude Include="Engine\Window\WindowMSG.h" />
+    <ClInclude Include="Game\IGame.h" />
+    <ClInclude Include="Game\IGameObject.h" />
+    <ClInclude Include="resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Engine\Core\Work\Notes.txt" />
+    <Text Include="Engine\EngineNotes.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Engine.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,105 @@
+<?xml version="1.0"?>
+<MapTypes>
+	<EntityTypes>
+		<Item>
+			<assetType type="STATIC_DRAWABLE"/>
+			<name name="test_1.txt" /> <!--Entity Name (not required)-->
+			<hash value="01"/> <!--If there is a name provided, hash will be ignoored.-->
+			<bbMin x="-24.94992" y="-12.26709" z="-10.8295" />
+			<bbMax x="21.74913" y="6.164063" z="9.423309" />
+			<bsCentre x="-1.600395" y="-3.051514" z="-0.7030945" />
+			<bsRadius value="27.0679" />
+			<shapeDictionary name="D:\test"/>
+			<textureDictionary name="D:\test" />		
+		</Item>
+		<Item>
+			<assetType type="STATIC_DRAWABLE"/>
+			<name name="test_2.txt" /> <!--Entity Name (not required)-->
+			<hash value="02"/>
+			<bbMin x="-24.94992" y="-12.26709" z="-10.8295" />
+			<bbMax x="21.74913" y="6.164063" z="9.423309" />
+			<bsCentre x="-1.600395" y="-3.051514" z="-0.7030945" />
+			<bsRadius value="27.0679" />
+			<shapeDictionary name="D:\test"/>
+			<textureDictionary name="D:\test" />		
+		</Item>
+		<Item>
+			<assetType type="STATIC_DRAWABLE"/>
+			<name name="test_3.txt" /> <!--Entity Name (not required)-->
+			<hash value="01"/> <!--If there is a name provided, hash will be ignoored.-->
+			<bbMin x="-24.94992" y="-12.26709" z="-10.8295" />
+			<bbMax x="21.74913" y="6.164063" z="9.423309" />
+			<bsCentre x="-1.600395" y="-3.051514" z="-0.7030945" />
+			<bsRadius value="27.0679" />
+			<shapeDictionary name="D:\test"/>
+			<textureDictionary name="D:\test" />		
+		</Item>
+		<Item>
+			<assetType type="STATIC_DRAWABLE"/>
+			<name name="test_4.txt" /> <!--Entity Name (not required)-->
+			<hash value="02"/>
+			<bbMin x="-24.94992" y="-12.26709" z="-10.8295" />
+			<bbMax x="21.74913" y="6.164063" z="9.423309" />
+			<bsCentre x="-1.600395" y="-3.051514" z="-0.7030945" />
+			<bsRadius value="27.0679" />
+			<shapeDictionary name="D:\test"/>
+			<textureDictionary name="D:\test" />		
+		</Item>
+		<Item>
+			<assetType type="STATIC_DRAWABLE"/>
+			<name name="test_5.txt" /> <!--Entity Name (not required)-->
+			<hash value="01"/> <!--If there is a name provided, hash will be ignoored.-->
+			<bbMin x="-24.94992" y="-12.26709" z="-10.8295" />
+			<bbMax x="21.74913" y="6.164063" z="9.423309" />
+			<bsCentre x="-1.600395" y="-3.051514" z="-0.7030945" />
+			<bsRadius value="27.0679" />
+			<shapeDictionary name="D:\test"/>
+			<textureDictionary name="D:\test" />		
+		</Item>
+		<Item>
+			<assetType type="STATIC_DRAWABLE"/>
+			<name name="test_6.txt" /> <!--Entity Name (not required)-->
+			<hash value="02"/>
+			<bbMin x="-24.94992" y="-12.26709" z="-10.8295" />
+			<bbMax x="21.74913" y="6.164063" z="9.423309" />
+			<bsCentre x="-1.600395" y="-3.051514" z="-0.7030945" />
+			<bsRadius value="27.0679" />
+			<shapeDictionary name="D:\test"/>
+			<textureDictionary name="D:\test" />		
+		</Item>
+		<Item>
+			<assetType type="STATIC_DRAWABLE"/>
+			<name name="test_6.txt" /> <!--Entity Name (not required)-->
+			<hash value="02"/>
+			<bbMin x="-24.94992" y="-12.26709" z="-10.8295" />
+			<bbMax x="21.74913" y="6.164063" z="9.423309" />
+			<bsCentre x="-1.600395" y="-3.051514" z="-0.7030945" />
+			<bsRadius value="27.0679" />
+			<shapeDictionary name="D:\test"/>
+			<textureDictionary name="D:\test" />		
+		</Item>
+		<Item>
+			<assetType type="STATIC_DRAWABLE"/>
+			<name name="test_6.txt" /> <!--Entity Name (not required)-->
+			<hash value="02"/>
+			<bbMin x="-24.94992" y="-12.26709" z="-10.8295" />
+			<bbMax x="21.74913" y="6.164063" z="9.423309" />
+			<bsCentre x="-1.600395" y="-3.051514" z="-0.7030945" />
+			<bsRadius value="27.0679" />
+			<shapeDictionary name="D:\test"/>
+			<textureDictionary name="D:\test" />		
+		</Item>
+		<Item>
+			<assetType type="STATIC_DRAWABLE"/>
+			<name name="test_6.txt" /> <!--Entity Name (not required)-->
+			<hash value="02"/>
+			<bbMin x="-24.94992" y="-12.26709" z="-10.8295" />
+			<bbMax x="21.74913" y="6.164063" z="9.423309" />
+			<bsCentre x="-1.600395" y="-3.051514" z="-0.7030945" />
+			<bsRadius value="27.0679" />
+			<shapeDictionary name="D:\test"/>
+			<textureDictionary name="D:\test" />		
+		</Item>
+	
+	</EntityTypes>
+</MapTypes>

@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<MapData>
+	<Name>part_1_map</Name>
+	<Parent>-1</Parent>
+	<Flags value="0" />
+	<Bounds>
+		<min x="-5" y="-5" z="-5"/>
+		<max x="5" y="5" z="5"/>
+	</Bounds>
+	<Entities>
+		<Item>
+			<AssetType type="STATIC_DRAWABLE"/>
+			<name name="Entity Name (not required)" />
+			<hash value="uint32 value"/>
+			<flags value="392" />
+			<position x="-19.6733303" y="109.4095" z="5.7394948" />
+			<rotation x="0" y="0" z="0" w="1" />
+			<scale x="1.0" y="1.0" z="1.0" /> <!--Scale won't work on collision objects !-->
+			<drawDist value="150" />
+			<parentIndex value="-1" />
+		</Item>
+		<Item>
+			<hash value="uint32 value"/>
+			<flags value="392" />
+			<position x="-19.6733303" y="109.4095" z="5.7394948" />
+			<rotation x="0" y="0" z="0" w="1" />
+			<scale x="1.0" y="1.0" z="1.0" /> <!--Scale won't work on collision objects !-->
+			<loadDist value="150" />
+			<parentIndex value="-1" />
+		</Item>
+	</Entities>
+</MapData>

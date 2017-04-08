@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<Descr>Define nodes with capital letter, but attributes with small letter.</Descr>
+<Engine>
+	<WindowParam fullScreen="false">
+		<Size width="1200" height="900" />
+	</WindowParam>
+	<Paths>
+		<Models path="../../DebugData/Models/" />
+		<Textures path="../../DebugData/Textures/" />
+	</Paths>
+</Engine>
+
