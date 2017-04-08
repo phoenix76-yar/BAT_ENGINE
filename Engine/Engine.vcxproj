@@ -175,6 +175,7 @@
     <ClCompile Include="Engine\Graphics\Shape Factory\Shape Primitives\IPrimitive.cpp" />
     <ClCompile Include="Engine\Window\Win32Window.cpp" />
     <ClCompile Include="file1.cpp" />
+    <ClCompile Include="file2.cpp" />
     <ClCompile Include="Launcher.cpp" />
   </ItemGroup>
   <ItemGroup>
