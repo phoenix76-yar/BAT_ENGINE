@@ -267,6 +267,9 @@
     <ClCompile Include="ach.cpp">
       <Filter>Engine\Core\Anticheat</Filter>
     </ClCompile>
+    <ClCompile Include="test.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Engine\EngineDefinitions.h">
