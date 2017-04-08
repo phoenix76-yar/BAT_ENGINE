@@ -270,6 +270,9 @@
     <ClCompile Include="test.cpp">
       <Filter>Engine</Filter>
     </ClCompile>
+    <ClCompile Include="file2.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Engine\EngineDefinitions.h">
