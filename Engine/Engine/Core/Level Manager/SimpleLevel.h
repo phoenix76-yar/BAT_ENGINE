@@ -23,7 +23,6 @@ namespace BEngine
 
 		void update(const LevelUpdateInfo& lInfo) override final;
 		void shutDown() override final;
-
 	};
 }
 

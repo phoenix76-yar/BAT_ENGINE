@@ -32,20 +32,39 @@ namespace BEngine
 		// ****** NOTE: Technically those methods should be protected.
 		//Called by message channel.
 		virtual void processMessage(const CEventMSG& eMSG);
-		void submitMessage(const CEventMSG& eMSG);
-		void submitMessageQueue(const CEventMSG* msgQueue, uint32 msgCount);
-		//void submitMessageQueue(const bvector<CEventMSG>& eMessages);
+
 	protected:
-		void registerMSGInputCallBack(void(*msgRCallBack)(CEventMSG eMessage));
 		void copyOverMSGs(bvector<CEventMSG>& msgContainer);
 		virtual void processInputMSGs(const bvector<CEventMSG>&) {}
 		bvector<CEventMSG> m_msgCont;
-	private:
 		CSpinLock m_spinlock;
 		bvector<CEventMSG> m_tempMSGCont;
-
-		void(*m_msgReceiveCallBack)(CEventMSG eMessage);
 	};
+
+
+
+
+// 	template<class T, EventMSGType MessageType>
+// 	class CEventListener : public virtual IEventListener
+// 	{
+// 	public:
+// 		CEventListener() = default;
+// 		virtual ~CEventListener() = default;
+// 
+// 		void copyOverMSGs();
+// 	protected:
+// 		virtual void processMSGQueue(const std::vector<T>&) = 0;
+// 		std::vector<T> m_messageCont;
+// 	};
+// 
+// 	template<class T, EventMSGType MessageType>
+// 	inline void CEventListener<T, MessageType>::copyOverMSGs()
+// 	{
+// 
+// 	}
+
+//Example: Graphics Event Listener
+//	using CGRCEventListener = CEventListener<CGraphicsMSG, EventMSGTypeV2::GraphicsData>;
 
 } //namespace BEngine
 #endif //EVENTSYSTEM_H

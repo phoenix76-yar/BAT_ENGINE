@@ -5,9 +5,8 @@
 
 namespace BEngine
 {
-	CMSGChannel::CMSGChannel(EventMSGType eType)
+	CMSGChannel::CMSGChannel(EventMSGType eType) : m_msgType(eType)
 	{
-		m_msgType = eType;
 	}
 
 	CMSGChannel::~CMSGChannel()

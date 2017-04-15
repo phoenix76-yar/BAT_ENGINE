@@ -24,8 +24,8 @@ namespace BEngine
 	private:
 		void loadRSC(CResourceObject* rscObj, const CRSCDirectory& cDir);
 
-		CResourceObject* m_rscObj;
-		CRSCDirectory m_resDir;
+		CResourceObject* m_resourceObject;
+		CRSCDirectory m_resourceDirectory;
 	};
 }
 

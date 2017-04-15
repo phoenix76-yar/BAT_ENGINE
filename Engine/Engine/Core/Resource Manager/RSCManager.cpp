@@ -11,10 +11,7 @@
 
 namespace BEngine
 {
-	CRSCManager::CRSCManager()
-	{
-		m_totalRSCLoadRequests = 0;
-	}
+	CRSCManager::CRSCManager() : m_totalRSCLoadRequests(0){}
 
 	CRSCManager::~CRSCManager()
 	{
@@ -28,7 +25,6 @@ namespace BEngine
 	{
 		MemAllocatConstrInfo allocInfo = { 512, 40960 };
 		m_pAllocator = new CMemoryAllocator(allocInfo);
-
 
 		while (m_threadState.load())
 		{

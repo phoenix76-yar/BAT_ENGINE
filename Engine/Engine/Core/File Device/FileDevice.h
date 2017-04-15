@@ -66,6 +66,7 @@ namespace BEngine
 		FHANDLE m_fileHandle;
 	};
 
+	//on CBFile you could build like class CGameProgressFile
 
 	/*
 	class CFileDevice

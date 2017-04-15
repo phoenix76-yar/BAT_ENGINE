@@ -34,14 +34,14 @@ namespace BEngine
 		uint64 generateHash(const char* key, size_t length);
 
 	private:
-		// ****** TODO: Replace later with bunordered map (needs to update to newer version)
+		// ****** TODO: Replace later with unordered map (needs to update to newer version)
 		bunordered_map<uint64, CResourceObject*> m_loadedRSCs; //hash, rscPtr
 		blist<IWorker*> m_workers;
 
-		uint64 m_totalRSCLoadRequests;
-
 		CMemoryAllocator* m_pAllocator;
 		bvector<CRSCLoadReqMSG> m_QueriesToLoad;
+
+		uint64 m_totalRSCLoadRequests;
 	};
 } //namespace BEngine
 #endif //RSCMANAGER_H

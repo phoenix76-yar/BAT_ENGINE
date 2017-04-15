@@ -77,10 +77,9 @@ namespace BEngine
 	class CEntitityDef
 	{
 	public:
-		CEntitityDef() : hash(0), loadDist(0.0f), radius(0.0f)
+		CEntitityDef() : hash(0), loadDist(0.0f), radius(0.0f), entityType(EntityType::UNDEFINED)
 		{
 			flags.value = 0;
-			entityType = EntityType::UNDEFINED;
 		}
 
 		uint32 hash;

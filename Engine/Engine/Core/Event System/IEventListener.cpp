@@ -31,22 +31,4 @@ namespace BEngine
 
 		// ****** TODO: Who cleans up msgContainer ????
 	}
-
-	void IEventListener::submitMessage(const CEventMSG& eMSG)
-	{
-		CEventManager::getInstance().submitMessage(eMSG);
-	}
-
-	void IEventListener::submitMessageQueue(const CEventMSG* msgQueue, uint32 msgCount)
-	{
-		CEventManager::getInstance().submitMessageQueue(msgQueue, msgCount);
-	}
-
-	void IEventListener::registerMSGInputCallBack(void(*msgRCallBack)(CEventMSG eMessage))
-	{
-		if (msgRCallBack != nullptr)
-		{
-			m_msgReceiveCallBack = msgRCallBack;
-		}
-	}
 }

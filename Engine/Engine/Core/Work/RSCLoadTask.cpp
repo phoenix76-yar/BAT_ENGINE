@@ -7,15 +7,15 @@
 
 namespace BEngine
 {
-	CRSCSimpleLoadTask::CRSCSimpleLoadTask(CResourceObject* rObject, const CRSCDirectory& cDir)
+	CRSCSimpleLoadTask::CRSCSimpleLoadTask(CResourceObject* rObject, const CRSCDirectory& cDir) :
+		m_resourceObject(rObject), m_resourceDirectory(cDir)
 	{
-		m_rscObj = rObject;
-		m_resDir = cDir;
+
 	}
 
 	void CRSCSimpleLoadTask::excuteTask()
 	{
-		this->loadRSC(m_rscObj, m_resDir);
+		this->loadRSC(m_resourceObject, m_resourceDirectory);
 	}
 
 	// ****** TODO: It will be necessary to implement possibility to allocate memory from

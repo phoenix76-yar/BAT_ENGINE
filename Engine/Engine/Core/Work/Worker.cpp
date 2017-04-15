@@ -9,12 +9,7 @@ namespace BEngine
 	//IWorker class methods
 	//-----------------------------------------------------------------------
 
-	IWorker::IWorker(uint32 id)
-	{
-		m_workerID = id;
-		m_doingWork = false;
-		m_workHasBeenCompleted = false;
-	}
+	IWorker::IWorker(uint32 id) : m_workerID(id) , m_doingWork(false), m_workHasBeenCompleted(false) {}
 
 	void IWorker::addTask(ITask* task)
 	{
@@ -46,16 +41,14 @@ namespace BEngine
 	//CSimpleWorker class methods
 	//-----------------------------------------------------------------------
 
-	CSimpleWorker::CSimpleWorker(CStateVariable* state) : IWorker(0)
+	CSimpleWorker::CSimpleWorker(CStateVariable* state) : 
+		IWorker(0),m_threadDeleted(false), m_state(state)
 	{
-		m_threadDeleted = false;
-		m_state = state;
 	}
 
-	CSimpleWorker::CSimpleWorker(CStateVariable* state, uint32 id) : IWorker(id)
+	CSimpleWorker::CSimpleWorker(CStateVariable* state, uint32 id) :
+		IWorker(id), m_threadDeleted(false), m_state(state)
 	{
-		m_threadDeleted = false;
-		m_state = state;
 	}
 
 	CSimpleWorker::~CSimpleWorker()
@@ -115,5 +108,4 @@ namespace BEngine
 		m_workHasBeenCompleted = true;
 		m_state->SetState(true);
 	}
-
 }

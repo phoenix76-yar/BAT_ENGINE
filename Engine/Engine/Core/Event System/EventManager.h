@@ -11,9 +11,6 @@ EVENT MANAGER
 #include "../Multi Threading/Spinlock.h"
 #include "EventMSG.h"
 
-#include <string>
-#include <mutex>
-
 namespace BEngine
 {
 	class CMSGChannel;
@@ -39,7 +36,6 @@ namespace BEngine
 		//void submitMessageQueue(const bvector<CEventMSG>& eMessages); // ****** TODO: Needs to be implemented.
 		//It will be probably better than by passing a pointer ...
 	private:
-		bool m_isInitialized;
 		CSpinLock m_spinlock;
 		bvector<CMSGChannel*> m_channels;
 

@@ -4,12 +4,11 @@
 
 namespace BEngine
 {
-	CBFile::CBFile() : m_fileSize(0) , m_fileIsOpen(false)
+	CBFile::CBFile() : m_fileSize(0) , m_fileIsOpen(false), m_fileHandle(nullptr)
 	{	
-		m_fileHandle = nullptr;
 	}
 
-	CBFile::CBFile(const char* fileName, BFileMode mode)
+	CBFile::CBFile(const char* fileName, BFileMode mode) : m_fileSize(0), m_fileIsOpen(false), m_fileHandle(nullptr)
 	{
 		open(fileName, mode);
 	}

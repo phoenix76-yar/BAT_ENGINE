@@ -66,8 +66,6 @@ namespace BEngine
 		std::atomic<bool> m_threadDeleted;
 		CStateVariable* m_state;
 	};
-
-
 }
 
 #endif //WORKER_H
